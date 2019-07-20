@@ -1,0 +1,134 @@
+.logo {
+  height:40px;
+  width: 40px;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.25);
+    font-size:large;
+} 
+.black {
+	color: black;
+}
+.carousel-indicators{
+	margin-bottom: 30px;
+}
+.img-padding{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+}
+.margin-bawah{
+  margin-bottom: 5%;
+}
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Button---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.btnHeader {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400; 
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 14px;
+}
+a.btnHeader.btnHeader-1.btn-sm{
+text-decoration: none;
+}
+a.btnHeader.btnHeader-2.btn-sm{
+text-decoration: none;
+}
+
+.btnHeader-1 {color: #fff;background-color: transparent;border: 2px solid #fff;margin-right: 15px;min-width: 170px;line-height: 26px;}
+.btnHeader-1:hover {color: #000;background-color: #fff;border-color: #fff;}
+
+.btnHeader-2 {background: #1abc9c;border: 2px solid transparent;margin:20px 0 10px 0;}
+.btnHeader-2:hover {color:#333;border:2px solid #1abc9c;background:transparent;}
+
+.header-text {position: absolute;top: 20%;left: 1.8%;right: auto;width: 96.66666666666666%;color: #fff;}
+.header-text h2 {font-size: 40px; padding: 10px;color: #fff;text-transform: uppercase;background-color: #1abc9c;display:inline-block;color:#fff;}
+.header-text h3 {color: #fff;text-shadow: 3px 4px 2px black;}
+
+.more{
+  float: right;
+}
+
+@media screen and (max-width:680px) {
+  div.header-text {display: none;}
+}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------BackTop-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+#backTop{
+    width:35px;
+    height:35px;
+    padding:10px;
+    border-radius:4px;
+    text-indent:-9999px;
+    cursor:pointer;
+    z-index:999999999;
+	display:none;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+}
+#backTop.green{
+     background:url(../image/uparr-48-b.png) no-repeat center center rgba(81,217,187,0.9); 
+    border:1px solid #fff;
+}
+
+/* ---HomePage--- */
+.box-content {padding: 50px 0; }
+.box-content .heading{margin-bottom: 80px;text-align:center;}
+.box-content .heading .intro{ margin:30px 0 10px 0;}
+
+.box-content.box-style{background: #F7F3E2; padding:110px 0;-moz-box-shadow: 0 0 10px 10px #999;-webkit-box-shadow: 0 0 10px 10px #999;box-shadow: 0px 0 10px 10px #999;}
+.box-content.box-style .heading h2:after{border-right: 37px solid #F7F3E2;}
+.box-content.box-style .heading h2:before{border-left: 37px solid #F7F3E2;}
+
+.box-content.box-1 {}
+.box-content.box-1 .service{margin: -80px 0 100px 0;text-align: center;background:#dfe6e9;padding: 20px;border-top:5px solid #1abc9c;-webkit-box-shadow: 0px 56px 36px -60px #121D12; -moz-box-shadow: 0px 56px 36px -60px #121D12; -o-box-shadow: 0px 56px 36px -60px #121D12;}
+.box-content.box-1 .service h3{color: #363638;font-size:25px;text-transform:uppercase;}
+.box-content.box-1 .service img{display: inline-block;margin-bottom:10px;}
+
+.box-content.box-2 {}
+.box-content.box-2 .box-item{margin-bottom: 30px;border: 1px solid #888;background-color: #fffeff;}
+.box-content.box-2 .box-item .wrapper{padding:0 15px; }
+.box-content.box-2 h3 {font-size:21px;font-weight:bold;margin:10px 0 25px 0;color: #857240;}
+.box-content.box-2 p {margin:0;line-height:1;}
+.box-content.box-2 .box-item div{padding: 0;}
+
+.box-content.box-3 {padding:110px 0;}
+.box-content.box-3 .wrap-img {margin-bottom:20px;}
+@media(min-width:400px) {
+.box-content.box-3 img{height:300px;width:300px;border-radius: 50%;display:inline-block;padding:20px;border: 3px solid #DA251D;}
+}
+.box-content.box-3 ul.social-buttons li a{display: block;width: 40px;height: 40px;border-radius: 100%;font-size: 20px;line-height: 40px;color: #ffffff;background-color: #222222;transition-duration: 0.4s;}
+.box-content.box-3 ul.social-buttons li a:hover{background-color: #DA251D;}
+
+.box-content.box-4{}
+.box-content.box-4 div{padding:0;}
+.box-content.box-4 .portfolio-img img{width:100%;margin:0;padding:0;display: block;}
+
+.box-content.box-5 {padding:110px 0 ;}
+.box-content.box-5 h3 {margin-bottom: 40px;font-size: 35px;}
+.box-content.box-5 input {border: 1px solid #CF000F;border-radius: 4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.box-content.box-5 textarea {border: 1px solid #CF000F;border-radius: 4px;-webkit-border-radius:4px;-moz-border-radius:4px;height: 240px;}
+
+.card-img-top{
+	height: 150px;
+}
+/*--------------*/
+
+.box-style{background: #F7F3E2; padding:110px 0;-moz-box-shadow: 0 0 10px 10px #999;-webkit-box-shadow: 0 0 10px 10px #999;box-shadow: 0px 0 10px 10px #999;}
+
+.heading{margin-bottom: -10px;text-align:center;}
+.heading h2 {height: 75px;background: #1abc9c;padding: 13px 0 0 0;position: relative;width: 100%;font-size: 45px;text-decoration: none;color: #fff; }
+.heading h2:after {content: "";  border-top: 37px solid transparent;border-bottom: 37px solid transparent;border-right: 37px solid #f8f9fa;position: absolute; right: 0; top: 0;}
+.heading h2:before {content: "";  border-top: 37px solid transparent;border-bottom: 37px solid transparent;border-left: 37px solid #f8f9fa;position: absolute; left: 0; top: 0;}
+.heading .intro{ margin:30px 0 10px 0;}
